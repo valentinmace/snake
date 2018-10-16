@@ -22,8 +22,9 @@ FOOD = 3
 # Directions
 UP = [0, -1]
 DOWN = [0, 1]
-RIGHT = [1, 0]
 LEFT = [-1, 0]
+RIGHT = [1, 0]
+DIRECTIONS = [[0, -1], [0, 1], [-1, 0], [1, 0]]
 
 # Map
 '''I define it that way because it is a huge gain of time, list comprehension is way slower
