@@ -33,7 +33,6 @@ class Game:
         gameWindow = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))  # Opening game window
         pygame.display.set_caption(WINDOW_TITLE)                          # Title
         snake = Snake(neural_net=neural_net)
-        snake.neural_net = Network(shape=[16, 16, 4])
         map = Map(snake)
         update = 0
         cont = True
@@ -65,7 +64,7 @@ class Game:
             if not snake.alive:
                 cont = False
         self.game_score = snake.fitness()
-        return self.score
+        return self.game_score
 
     def render(self, window, map):
         map.render(window)

@@ -10,7 +10,7 @@ from joblib import Parallel, delayed
 
 class Genetic:
 
-  def __init__(self, networks=None, networks_number=150, networks_shape=[16,10,4], crossover_rate=0.3,
+  def __init__(self, networks=None, networks_number=150, networks_shape=[24,10,4], crossover_rate=0.3,
                crossover_method='neuron', mutation_rate=0.7, mutation_method='neuron'):
     self.networks = networks
     if networks is None:
@@ -34,7 +34,7 @@ class Genetic:
 
     num_cores = multiprocessing.cpu_count()
     gen = 0
-    for i in range(10):
+    for i in range(100):
       gen+=1
       parents = []
       for i in range(crossover_number):
@@ -67,17 +67,22 @@ class Genetic:
         networks[i].score = int(np.mean([results[i], results2[i], results3[i], results4[i]]))
 
       networks.sort(key=lambda Network: Network.score, reverse=True)
-      # if(networks[0].score>40000):
-      #   networks[0].save()
+      if(networks[0].score>40000):
+        networks[0].save()
 
       for i in range(int(0.2*len(networks))):                                   #TEST Mutation supplémentaire
-        rand = randint(0, len(networks)-1)
+        rand = randint(10, len(networks)-1)
         networks[rand] = self.mutation(networks[rand])
-
-      # print("\nBest Fitness gen", gen, " : ", networks[0].score)
       networks = networks[:population_size]                      #TEST On rajoute des réseaux random à la fin
-      # for i in range(1000):
-      #   self.networks.append(Network(self.networks_shape))
+
+      print("\nBest Fitness gen", gen, " : ", networks[0].score)
+      print("Pop size = ", len(networks))
+      print("Average top 6 = ", int(np.mean([networks[0].score, networks[1].score, networks[2].score,
+                                             networks[3].score, networks[4].score,
+                                             networks[5].score, ])))
+      print("Average last 6 = ", int(np.mean([networks[-1].score, networks[-2].score, networks[-3].score,
+                                              networks[-4].score, networks[-5].score,
+                                              networks[-6].score, ])))
 
 
 

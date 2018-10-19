@@ -28,8 +28,11 @@ class Map:
         self.food = [block_x, block_y]
 
     def scan(self):
-        scan = [[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]
-        food = self.food
+        scan = [[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]
+        snake_body = self.snake.body
+        snake_direction = self.snake.direction
+        food_x = self.food[0]
+        food_y = self.food[1]
         structure = self.structure
         head_x = self.snake.head[0]
         head_y = self.snake.head[1]
@@ -43,46 +46,83 @@ class Map:
             if i < up_range:                                                                # Scanning UP
                 if structure[head_y - i][head_x] == WALL:
                     scan[0][0] = 1/distance((head_x, head_y), (head_x, head_y - i))
-                elif food[0] == head_x and food[1] == (head_y - i):
-                    scan[8][0] = 1
+                elif [head_x, head_y - i] in snake_body:
+                    scan[16][0] = max(scan[16][0], 1/distance((head_x, head_y), (head_x, head_y - i)))
                 if i < left_range:                                                          # Scanning UP-LEFT
                     if structure[head_y - i][head_x - i] == WALL:
                         scan[4][0] = 1/distance((head_x, head_y), (head_x - i, head_y - i))
-                    elif food[0] == (head_x - i) and food[1] == (head_y - i):
-                        scan[12][0] = 1
+                    elif [head_x - i, head_y - i] in snake_body:
+                        scan[20][0] = max(scan[20][0], 1/distance((head_x, head_y), (head_x - i, head_y - i)))
 
             if i < down_range:                                                              # Scanning DOWN
                 if structure[head_y + i][head_x] == WALL:
                     scan[1][0] = 1/distance((head_x, head_y), (head_x, head_y + i))
-                elif food[0] == head_x and food[1] == (head_y + i):
-                    scan[9][0] = 1
+                elif [head_x, head_y + i] in snake_body:
+                    scan[17][0] = max(scan[17][0], 1/distance((head_x, head_y), (head_x, head_y - i)))
                 if i < right_range:                                                         # Scanning DOWN-RIGHT
                     if structure[head_y + i][head_x + i] == WALL:
                         scan[5][0] = 1/distance((head_x, head_y), (head_x + i, head_y + i))
-                    elif food[0] == (head_x + i) and food[1] == (head_y + i):
-                        scan[13][0] = 1
+                    elif [head_x + i, head_y + i] in snake_body:
+                        scan[21][0] = max(scan[21][0], 1/distance((head_x, head_y), (head_x + i, head_y + i)))
 
             if i < left_range:                                                              # Scanning LEFT
                 if structure[head_y][head_x - i] == WALL:
                     scan[2][0] = 1/distance((head_x, head_y), (head_x - i, head_y))
-                elif food[0] == (head_x - i) and food[1] == head_y:
-                    scan[10][0] = 1
+                elif [head_x - i, head_y] in snake_body:
+                    scan[18][0] = max(scan[18][0], 1/distance((head_x, head_y), (head_x - i, head_y)))
                 if i < down_range:                                                          # Scanning DOWN-LEFT
                     if structure[head_y + i][head_x - i] == WALL:
-                        scan[6][0] = 1/distance((head_x, head_y), (head_x + i, head_y - i))
-                    elif food[0] == (head_x - i) and food[1] == (head_y + i):
-                        scan[14][0] = 1
+                        scan[6][0] = 1/distance((head_x, head_y), (head_x - i, head_y + i))
+                    elif [head_x - i, head_y + i] in snake_body:
+                        scan[22][0] = max(scan[22][0], 1/distance((head_x, head_y), (head_x - i, head_y + i)))
 
             if i < right_range:                                                             # Scanning RIGHT
                 if structure[head_y][head_x + i] == WALL:
                     scan[3][0] = 1/distance((head_x, head_y), (head_x + i, head_y))
-                elif food[0] == (head_x + i) and food[1] == head_y:
-                    scan[11][0] = 1
+                elif [head_x + i, head_y] in snake_body:
+                    scan[19][0] = max(scan[19][0], 1/distance((head_x, head_y), (head_x + i, head_y)))
                 if i < up_range:                                                            # Scanning UP-RIGHT
                     if structure[head_y - i][head_x + i] == WALL:
-                        scan[7][0] = 1/distance((head_x, head_y), (head_x - i, head_y + i))
-                    elif food[0] == (head_x + i) and food[1] == (head_y - i):
-                        scan[15][0] = 1
+                        scan[7][0] = 1/distance((head_x, head_y), (head_x + i, head_y - i))
+                    elif [head_x + i, head_y - i] in snake_body:
+                        scan[23][0] = max(scan[23][0], 1/distance((head_x, head_y), (head_x + i, head_y - i)))
+
+        for i in range(1, up_range):
+            if food_x == head_x and food_y == (head_y - i):
+                scan[8][0] = 1
+            if i < left_range:
+                if food_x == (head_x - i) and food_y == (head_y - i):
+                    scan[12][0] = 1
+
+        for i in range(1, down_range):
+            if food_x == head_x and food_y == (head_y + i):
+                scan[9][0] = 1
+            if i < right_range:
+                if food_x == (head_x + i) and food_y == (head_y + i):
+                    scan[13][0] = 1
+
+        for i in range(1, left_range):
+            if food_x == head_x - i and food_y == head_y:
+                scan[10][0] = 1
+            if i < down_range:
+                if food_x == (head_x - i) and food_y == (head_y + i):
+                    scan[14][0] = 1
+
+        for i in range(1, right_range):
+            if food_x == head_x + i and food_y == head_y:
+                scan[11][0] = 1
+            if i < up_range:
+                if food_x == (head_x + i) and food_y == (head_y - i):
+                    scan[15][0] = 1
+
+        if snake_direction == UP:
+            scan[17][0] = 0
+        elif snake_direction == DOWN:
+            scan[16][0] = 0
+        elif snake_direction == LEFT:
+            scan[19][0] = 0
+        elif snake_direction == RIGHT:
+            scan[18][0] = 0
         self.snake.vision = scan
 
     def render(self, window):
@@ -105,10 +145,6 @@ class Map:
             num_line += 1
         self.snake.render(window)
 
-
 @jit(nopython=True)
 def distance(p1=None, p2=None):
     return math.sqrt((p2[0] - p1[0]) ** 2 + (p2[1] - p1[1]) ** 2)
-
-# if [head_x, head_y - i] in snake.body:
-#   scan[16] = distance((head_x, head_y), (head_x, head_y - i))

@@ -7,7 +7,7 @@ class Snake:
     """Snake class"""
 
     def __init__(self, neural_net=None):
-        self.body = [[15, 15]]
+        self.body = [[15, 15], [14, 15], [14, 16], [14, 17]]
         self.head = self.body[0][:]
         self.old_tail = self.head[:]
         self.direction = RIGHT
@@ -34,8 +34,8 @@ class Snake:
 
     def AI(self):
         decision = DIRECTIONS[np.argmax(self.neural_net.feed_forward(self.vision))]
-        # if self.direction[0] != decision[0] and self.direction[1] != decision[1]:
-        #     self.direction = decision
+        if self.direction[0] != decision[0] and self.direction[1] != decision[1]:
+            self.direction = decision
 
     def fitness(self):
       return (len(self.body)**2) * self.age**2
