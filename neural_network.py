@@ -5,7 +5,7 @@ import numpy as np
 class Network:
     """Neural Network class"""
 
-    def __init__(self, shape=[24,16,4]):
+    def __init__(self, shape=[14,16,3]):
         self.num_layers = len(shape)
         self.shape = shape
         self.biases = []

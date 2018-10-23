@@ -46,13 +46,11 @@ class Game:
                     if event.key == K_ESCAPE:
                         cont = False
                     if event.key == K_RIGHT:
-                        snake.direction = RIGHT
+                        snake.turn_right()
                     elif event.key == K_LEFT:
-                        snake.direction = LEFT
+                        snake.turn_left()
                     elif event.key == K_UP:
-                        snake.direction = UP
-                    elif event.key == K_DOWN:
-                        snake.direction = DOWN
+                        pass
             update += 1
             if update > 0:
                 update = 0

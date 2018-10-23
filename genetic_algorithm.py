@@ -10,7 +10,7 @@ from joblib import Parallel, delayed
 
 class Genetic:
 
-  def __init__(self, networks=None, networks_number=150, networks_shape=[24,10,4], crossover_rate=0.3,
+  def __init__(self, networks=None, networks_number=150, networks_shape=[14,16,3], crossover_rate=0.3,
                crossover_method='neuron', mutation_rate=0.7, mutation_method='neuron'):
     self.networks = networks
     if networks is None:

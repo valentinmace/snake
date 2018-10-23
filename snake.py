@@ -32,10 +32,22 @@ class Snake:
         self.body.insert(0, self.body.pop())
         self.body[0] = self.head[:]
 
+    def turn_right(self):
+        temp = self.direction[0]
+        self.direction[0] = -self.direction[1]
+        self.direction[1] = temp
+
+    def turn_left(self):
+        temp = self.direction[0]
+        self.direction[0] = self.direction[1]
+        self.direction[1] = -temp
+
     def AI(self):
-        decision = DIRECTIONS[np.argmax(self.neural_net.feed_forward(self.vision))]
-        if self.direction[0] != decision[0] and self.direction[1] != decision[1]:
-            self.direction = decision
+        decision = np.argmax(self.neural_net.feed_forward(self.vision))
+        if decision == 1:
+            self.turn_right()
+        elif decision == 2:
+            self.turn_left()
 
     def fitness(self):
       return (len(self.body)**2) * self.age**2
