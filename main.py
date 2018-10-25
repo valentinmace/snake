@@ -39,7 +39,7 @@ import time
 # gen.start()
 
 net = Network()
-net.load(filename_weights='saved_weights_3044616.npy', filename_biases='saved_biases_3044616.npy')
+net.load(filename_weights='saved_weights_15478376.npy', filename_biases='saved_biases_15478376.npy')
 game = Game()
 print(game.start(display=True, neural_net=net))
 # print(game.start(display=True, neural_net=net))
@@ -53,3 +53,4 @@ print(game.start(display=True, neural_net=net))
 # Modifier la manière du snake avec à sa gauche droite etc, changer la notion de distance (pour les diagonales), la
 # queue en mur et enfin (plus tard) la food tu la scannes avec deux inputs (x-xpomme et y-ypomme)
 # Pour qu'il soit moins effrayé des murs peut être 1/distance^2
+

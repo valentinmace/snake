@@ -34,11 +34,23 @@ class Network:
         self.biases = np.load(filename_biases)
 
     def render(self, window, vision):
-        for i in range(len(self.weights[0][1])):
-            intensity = int(vision[i-1][0] * 255)
+        network = []
+        network.append(np.array(vision))
+        for i in range(len(self.biases)):
+            network.append(sigmoid(np.dot(self.weights[i], network[i])+self.biases[i]))
+        print("\n", network)
+
+        for i in range(len(network[0])):
+            intensity = int(network[0][i][0] * 255)
             pygame.gfxdraw.filled_circle(window, WINDOW_SIZE+60, i * 24 + 60, 9, (intensity, intensity, intensity))
         for i in range(len(self.weights[0][1])):
             pygame.gfxdraw.aacircle(window, WINDOW_SIZE+60, i * 24 + 60, 9, (205, 205, 205))
+
+        for i in range(len(network[1])):
+            intensity = int(network[1][i][0] * 255)
+            pygame.gfxdraw.filled_circle(window, WINDOW_SIZE+250, i * 24 + 120, 9, (intensity, intensity, intensity))
+        for i in range(len(network[1])):
+            pygame.gfxdraw.aacircle(window, WINDOW_SIZE+250, i * 24 + 120, 9, (205, 205, 205))
 
 
 @jit(nopython=True)

@@ -7,9 +7,7 @@ class Snake:
     """Snake class"""
 
     def __init__(self, neural_net=None):
-        self.body = [[10, 10], [9, 10], [9, 11], [9, 12], [9, 12], [9, 13], [9, 14], [9, 15], [9, 16], [9, 17],
-                     [8, 17], [8, 16], [8, 15], [8, 14], [8, 13], [8, 12], [8, 11], [8, 10], [8, 9], [8, 8],
-                     [8, 7], [8, 6], [8, 5], [8, 4], [8, 3], [8, 2]]
+        self.body = [[10, 10], [9, 10], [9, 11], [9, 12]]
         self.head = self.body[0][:]
         self.old_tail = self.head[:]
         self.direction = RIGHT

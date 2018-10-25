@@ -43,7 +43,7 @@ class Game:
         update = 0
         cont = True
         while cont:
-            pygame.time.Clock().tick(1)
+            pygame.time.Clock().tick(60)
             for event in pygame.event.get():
                 if event.type == QUIT:
                     cont = False
@@ -63,11 +63,11 @@ class Game:
             if not playable:
               map.scan()
               snake.AI()
+            self.render(gameWindow, map)
             snake.update()
             map.update()
             if not snake.alive:
                 cont = False
-            self.render(gameWindow, map)
 
         self.game_score = snake.fitness()
         return self.game_score
