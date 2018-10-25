@@ -3,150 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="499b380c-d85d-42fc-801d-509d79bb3ff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18346702_biases.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18346702_weights.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/constantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/genetic_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_scan_delete_me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_10034978.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_10102011.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_10713568.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_11008021.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_11203894.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_12457637.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13182445.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13186359.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13454248.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13522199.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13795617.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_13986330.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_14020504.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_14292307.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_1449616.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_14541460.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_14614291.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15085066.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15221091.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15334219.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15606022.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15628672.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15855175.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_15968426.npy" beforeDir="false" afterPath="$PROJECT_DIR$/saved_biases_15968426.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_16081677.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_16149628.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_16717415.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_16736592.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_16942387.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17191539.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17236840.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17259490.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17327441.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17392254.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17440692.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17599244.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_17893697.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_18097549.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_18595855.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_18912958.npy" beforeDir="false" afterPath="$PROJECT_DIR$/saved_biases_18912958.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_19845069.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_20090771.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_2010617.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_2265025.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_3057783.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_3284089.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_3718622.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_4177013.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_4960404.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_5010287.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_5118956.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_5476022.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_6165515.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_6679206.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_6774418.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_6872960.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_6953835.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_7490931.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_7522832.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_7635469.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_7899754.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_7976414.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_8248947.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_9040947.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_9294966.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_9424970.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_9581055.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_biases_9716957.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_10034978.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_10102011.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_10713568.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_11008021.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_11203894.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_12457637.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13182445.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13186359.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13454248.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13522199.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13795617.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_13986330.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_14020504.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_14292307.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_1449616.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_14541460.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_14614291.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15085066.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15221091.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15334219.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15606022.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15628672.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15855175.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_15968426.npy" beforeDir="false" afterPath="$PROJECT_DIR$/saved_weights_15968426.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_16081677.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_16149628.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_16717415.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_16736592.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_16942387.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17191539.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17236840.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17259490.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17327441.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17392254.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17440692.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17599244.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_17893697.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_18097549.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_18595855.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_18912958.npy" beforeDir="false" afterPath="$PROJECT_DIR$/saved_weights_18912958.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_19845069.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_20090771.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_2010617.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_2265025.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_3057783.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_3284089.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_3718622.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_4177013.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_4960404.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_5010287.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_5118956.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_5476022.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_6165515.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_6679206.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_6774418.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_6872960.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_6953835.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_7490931.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_7522832.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_7635469.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_7899754.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_7976414.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_8248947.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_9040947.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_9294966.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_9424970.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_9581055.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_weights_9716957.npy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,14 +85,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2142503269">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1580" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1580" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+            <state relative-caret-position="321">
+              <caret line="44" selection-start-line="44" selection-start-column="2" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -240,10 +132,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/genetic_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            <state relative-caret-position="230">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1540431451108" expanded="true" signature="289:476" ph="..." />
               </folding>
             </state>
           </provider>
@@ -252,19 +157,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2712">
-              <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="-1832">
+              <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1540429970942" expanded="true" signature="5417:5790" ph="..." />
               </folding>
             </state>
           </provider>
@@ -273,11 +169,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="46" selection-start-line="46" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="670">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1540252821194" expanded="true" signature="1009:1128" ph="..." />
               </folding>
             </state>
           </provider>
@@ -286,11 +181,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neural_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="334">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+                <marker date="1540431029073" expanded="true" signature="995:1004" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/pygame/gfxdraw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -298,8 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constantes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="126">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -323,10 +228,15 @@
       <find>food[1]</find>
       <find>snake_di</find>
       <find>food</find>
+      <find>30</find>
+      <find>31</find>
+      <find>29</find>
+      <find>start_invisible</find>
     </findStrings>
     <replaceStrings>
       <replace>food_x</replace>
       <replace>food_y</replace>
+      <replace>start</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -335,13 +245,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/constantes.py" />
-        <option value="$PROJECT_DIR$/neural_network.py" />
         <option value="$PROJECT_DIR$/genetic_algorithm.py" />
-        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/constantes.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/snake.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/neural_network.py" />
+        <option value="$PROJECT_DIR$/game.py" />
       </list>
     </option>
   </component>
@@ -352,10 +262,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
-    <option name="width" value="1930" />
-    <option name="height" value="1148" />
+    <option name="x" value="979" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -363,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,17 +285,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../snake2/snake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Valentin\Desktop\snake\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Valentin\Desktop\snake2" />
     </key>
@@ -444,9 +357,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1930" height="1148" extended-state="6" />
+    <frame x="1911" y="-9" width="1698" height="1068" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17726293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.100493215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -460,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22349273" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4017758" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,20 +392,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/100148509/builtins.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/builtins.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/pygame/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="30" column="4" selection-start-line="30" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+        <state relative-caret-position="321">
+          <caret line="44" selection-start-line="44" selection-start-column="2" selection-end-line="48" selection-end-column="49" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/snake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/pygame/gfxdraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constantes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1540431029073" expanded="true" signature="995:1004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/genetic_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        <state relative-caret-position="230">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -501,46 +456,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2712">
-          <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+        <state relative-caret-position="-1832">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding>
+            <marker date="1540429970942" expanded="true" signature="5417:5790" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="166">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540431451108" expanded="true" signature="289:476" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snake.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="46" selection-start-line="46" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540252821194" expanded="true" signature="1009:1128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constantes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>

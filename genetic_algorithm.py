@@ -10,7 +10,7 @@ from joblib import Parallel, delayed
 
 class Genetic:
 
-  def __init__(self, networks=None, networks_number=150, networks_shape=[14,16,3], crossover_rate=0.3,
+  def __init__(self, networks=None, networks_number=150, networks_shape=[21,16,3], crossover_rate=0.3,
                crossover_method='neuron', mutation_rate=0.7, mutation_method='neuron'):
     self.networks = networks
     if networks is None:
@@ -34,7 +34,7 @@ class Genetic:
 
     num_cores = multiprocessing.cpu_count()
     gen = 0
-    for i in range(100):
+    for i in range(200):
       gen+=1
       parents = []
       for i in range(crossover_number):
@@ -58,10 +58,10 @@ class Genetic:
       game = Game()
       # for i in range(len(self.networks)):
       #   self.networks[i].score = game.start(network=self.networks[i])
-      results = Parallel(n_jobs=num_cores)(delayed(game.start_invisible)(neural_net=networks[i]) for i in range(len(networks)))
-      results2 = Parallel(n_jobs=num_cores)(delayed(game.start_invisible)(neural_net=networks[i]) for i in range(len(networks)))
-      results3 = Parallel(n_jobs=num_cores)(delayed(game.start_invisible)(neural_net=networks[i]) for i in range(len(networks)))
-      results4 = Parallel(n_jobs=num_cores)(delayed(game.start_invisible)(neural_net=networks[i]) for i in range(len(networks)))
+      results = Parallel(n_jobs=num_cores)(delayed(game.start)(neural_net=networks[i]) for i in range(len(networks)))
+      results2 = Parallel(n_jobs=num_cores)(delayed(game.start)(neural_net=networks[i]) for i in range(len(networks)))
+      results3 = Parallel(n_jobs=num_cores)(delayed(game.start)(neural_net=networks[i]) for i in range(len(networks)))
+      results4 = Parallel(n_jobs=num_cores)(delayed(game.start)(neural_net=networks[i]) for i in range(len(networks)))
 
       for i in range(len(results)):
         networks[i].score = int(np.mean([results[i], results2[i], results3[i], results4[i]]))
@@ -89,11 +89,11 @@ class Genetic:
 
   def tournament(self, net1, net2, net3):
     game = Game()
-    game.start_invisible(neural_net=net1)
+    game.start(neural_net=net1)
     score1 = game.game_score
-    game.start_invisible(neural_net=net2)
+    game.start(neural_net=net2)
     score2 = game.game_score
-    game.start_invisible(neural_net=net3)
+    game.start(neural_net=net3)
     score3 = game.game_score
     maxscore = max(score1,score2,score3)
     if maxscore == score1:
@@ -134,9 +134,9 @@ class Genetic:
       res2.biases[layer][bias] = temp.biases[layer][bias]
 
     game = Game()
-    game.start_invisible(neural_net=res1)
+    game.start(neural_net=res1)
     score1 = game.game_score
-    game.start_invisible(neural_net=res2)
+    game.start(neural_net=res2)
     score2 = game.game_score
     if(score1>score2):
       return res1

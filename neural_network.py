@@ -1,6 +1,8 @@
 from numba import jit
 import numpy as np
-
+import pygame
+from constantes import *
+from pygame import gfxdraw
 
 class Network:
     """Neural Network class"""
@@ -30,6 +32,14 @@ class Network:
     def load(self, filename_weights, filename_biases):
         self.weights = np.load(filename_weights)
         self.biases = np.load(filename_biases)
+
+    def render(self, window, vision):
+        for i in range(len(self.weights[0][1])):
+            intensity = int(vision[i-1][0] * 255)
+            pygame.gfxdraw.filled_circle(window, WINDOW_SIZE+60, i * 24 + 60, 9, (intensity, intensity, intensity))
+        for i in range(len(self.weights[0][1])):
+            pygame.gfxdraw.aacircle(window, WINDOW_SIZE+60, i * 24 + 60, 9, (205, 205, 205))
+
 
 @jit(nopython=True)
 def sigmoid(z):

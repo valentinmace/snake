@@ -12,6 +12,12 @@ class Game:
         self.game_score = 0
         self.game_time = 0
 
+    def start(self, display=False, neural_net=None, playable=False):
+        if not display:
+            return self.start_invisible(neural_net=neural_net)
+        else:
+            return self.start_visible(neural_net=neural_net, playable=playable)
+
     def start_invisible(self, neural_net=None):
         snake = Snake(neural_net=neural_net)
         map = Map(snake)
@@ -22,7 +28,7 @@ class Game:
             snake.AI()
             snake.update()
             map.update()
-            if not snake.alive or self.game_time > 300:
+            if not snake.alive: #or self.game_time > 300:
                 cont = False
                 self.game_time = 0
         self.game_score = snake.fitness()
@@ -30,15 +36,14 @@ class Game:
 
     def start_visible(self, playable=False, neural_net=None):
         pygame.init()
-        gameWindow = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))  # Opening game window
+        gameWindow = pygame.display.set_mode((int(WINDOW_SIZE*2), WINDOW_SIZE))  # Opening game window
         pygame.display.set_caption(WINDOW_TITLE)                          # Title
         snake = Snake(neural_net=neural_net)
         map = Map(snake)
         update = 0
         cont = True
         while cont:
-            pygame.time.Clock().tick(30)
-            self.render(gameWindow, map)
+            pygame.time.Clock().tick(1)
             for event in pygame.event.get():
                 if event.type == QUIT:
                     cont = False
@@ -51,16 +56,19 @@ class Game:
                         snake.turn_left()
                     elif event.key == K_UP:
                         pass
-            update += 1
-            if update > 0:
-                update = 0
-                if not playable:
-                  map.scan()
-                  snake.AI()
-                snake.update()
-                map.update()
+                    # snake.update()
+                    # map.update()
+                    # print(map.scan())
+
+            if not playable:
+              map.scan()
+              snake.AI()
+            snake.update()
+            map.update()
             if not snake.alive:
                 cont = False
+            self.render(gameWindow, map)
+
         self.game_score = snake.fitness()
         return self.game_score
 

@@ -35,18 +35,20 @@ import time
 # game = Game()
 # game.start_visible(neural_net=net)
 
-# gen = Genetic(networks_number=12000, crossover_method='neuron', mutation_method='weight')
+# gen = Genetic(networks_number=4000, crossover_method='neuron', mutation_method='weight')
 # gen.start()
 
 net = Network()
-net.load(filename_weights='saved_weights_18301402.npy', filename_biases='saved_biases_18301402.npy')
+net.load(filename_weights='saved_weights_3044616.npy', filename_biases='saved_biases_3044616.npy')
 game = Game()
-# print(game.start_invisible(neural_net=net))
-print(game.start_visible(neural_net=net))
-print(game.start_visible(neural_net=net))
-print(game.start_visible(neural_net=net))
-print(game.start_visible(neural_net=net))
-print(game.start_visible(neural_net=net))
+print(game.start(display=True, neural_net=net))
+# print(game.start(display=True, neural_net=net))
+# print(game.start(display=True, neural_net=net))
+# print(game.start(display=True, neural_net=net))
+# print(game.start(display=True, neural_net=net))
+# print(game.start(display=True, neural_net=net))
+
+
 
 # Modifier la manière du snake avec à sa gauche droite etc, changer la notion de distance (pour les diagonales), la
 # queue en mur et enfin (plus tard) la food tu la scannes avec deux inputs (x-xpomme et y-ypomme)
