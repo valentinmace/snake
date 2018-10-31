@@ -36,10 +36,10 @@ You will find some ready to run examples in ``main.py`` file.
 
 You can try to:
 - Play snake
-- Train your own neural networks
+- Train your own neural networks (it can take a while to get good results)
 - Display a game played by neural networks that I trained and selected four you
 
-Everything is explaind in the file, just uncomment parts that you want to execute, then go into terminal and do:
+Everything is explaind in the file, just uncomment parts that you want to execute, then go to terminal and do:
 ```sh
 python main.py
 ```
