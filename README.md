@@ -1,38 +1,39 @@
-# snake
+# Snake
 >Neural Networks playing snake game trained by genetic algorithm
 
 <p align="center">
   <img src="./animation.gif">
 </p>
 
-The main purpose of this repository is to run the FCM for the relation classification task on several corpus, using multiples word embeddings and to compute results (such as micro-f1, macro-f1, weighted-f1 etc.)
+A personal project consisting in training neural networks to play the game "Snake"
 
-This repository is made of multiple pieces, the heart being the FCM C++ [implementation by Mo Yu](https://github.com/Gorov/FCM_nips_workshop)
+This repository contains:
+- The Snake Game itself
+- A Genetic Algorithm module
+- A Neural Network module
+- A main file with toy examples
 
-I have build two python scripts around it:
+Everything is made by me, I did not want to use existing framework for the genetic algorithm or neural network for learning purposes. I also coded the game with performance in mind rather than conception elegance.
 
-- 1- The first (main) one is used to run the FCM on a chosen corpus, tuning learning rate and number of epochs, using one or many word embeddings and finally getting results in a file
+I timed most functions to be sure to improve speed and used numba jit for compiling some functions, the genetic algorithm is parallelized for its main part (snakes evaluation) using multiprocessing and joblib
 
-- 2- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM (adding various taggs, dependency path information etc.), if you ever wish to use my work on another corpus and if you can easily have your corpus in a Semeval 2010 format ..
+I have published (or will publish depending on when you read this) a serie of youtube tutorial videos on my channel (in french):
+https://www.youtube.com/channel/UCMIW0JKxoxBDM5yiiF17SrA
 
-These 2 scripts are **INDEPENDANT**, if you wish to just use one of them no need to care for installation of the other
-
-I already provide Semeval 2010, Semeval 2018 and reAce 2005 corpus with all results using several word embeddings (see ``results/macro_f1`` folder) so the conversion script may not be that useful
 
 ## Installation
 
-This repository is for Windows use, a linux version might come in a near future and it should be relatively easy to make it yourself
+Python 3 was used for this project and I can't promess that older versions are compatibles
 
-For the main script you need python 3 and the following packages:
+Libraries you'll need to run the project:
 
-{ ``numpy``, ``sklearn``, ``scipy``}
+{``joblib``, ``numpy``, ``numba``, ``pygame``}
 
-For the conversion script you need python 3 and the following packages:
+Clone the repo using
 
-{ ``numpy``,  ``scipy``, ``spacy``, ``networkx`` }
-
-Sorry for not making an executable but these are useful libraries anyway :)
-
+```sh
+https://github.com/valentinmace/snake.git
+```
 
 - To use the main script, you first need to compile the FCM code, open a terminal in ``fcm`` folder and ``make``, since this repo is for Windows I recommend using [MinGW](https://sourceforge.net/projects/mingw-w64/) (don't forget to add it to your PATH environment variable)
 
