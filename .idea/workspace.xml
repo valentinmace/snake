@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b380c-d85d-42fc-801d-509d79bb3ff1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetic_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_biases_15478376.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_biases_6492868.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_biases_6588627.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_weights_15478376.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_weights_6492868.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/saved_weights_6588627.npy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_biases_3044616.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_biases_15478376.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_biases_5753000.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_biases_6215502.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_biases_6492868.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_biases_6588627.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_weights_15478376.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_weights_5753000.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_weights_6215502.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_weights_6492868.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_neural_nets/saved_weights_6588627.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_weights_3044616.npy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,33 +74,36 @@
     <session id="127582660">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3087" />
+          <entry key="dummy" value="9" />
+          <entry key="py" value="25424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3087" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="25424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -116,10 +142,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+            <state relative-caret-position="-816">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <element signature="e#47#65#0" expanded="true" />
+                <element signature="e#295#312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,10 +154,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/genetic_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            <state relative-caret-position="2016">
+              <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1540956231644" expanded="true" signature="2497:2501" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,10 +166,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="77">
+              <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#547#564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
+            <state relative-caret-position="4920">
+              <caret line="207" column="21" selection-start-line="207" selection-end-line="208" />
             </state>
           </provider>
         </entry>
@@ -161,11 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -173,20 +196,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neural_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+            <state relative-caret-position="144">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding>
-                <marker date="1540453883106" expanded="true" signature="995:1004" ph="..." />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constantes.py">
+        <entry file="file://$PROJECT_DIR$/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="816">
+              <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -214,11 +237,22 @@
       <find>31</find>
       <find>29</find>
       <find>start_invisible</find>
+      <find>number</find>
+      <find>len</find>
+      <find>children</find>
+      <find>num_lay</find>
+      <find>num_layers</find>
+      <find>self.num</find>
+      <find>Network</find>
+      <find>i</find>
+      <find>network</find>
+      <find>j</find>
     </findStrings>
     <replaceStrings>
       <replace>food_x</replace>
       <replace>food_y</replace>
       <replace>start</replace>
+      <replace>NeuralNetwork</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -227,12 +261,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/genetic_algorithm.py" />
         <option value="$PROJECT_DIR$/constantes.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/game.py" />
-        <option value="$PROJECT_DIR$/neural_network.py" />
         <option value="$PROJECT_DIR$/snake.py" />
+        <option value="$PROJECT_DIR$/neural_network.py" />
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/genetic_algorithm.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -244,10 +279,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
-    <option name="width" value="1930" />
-    <option name="height" value="1148" />
+    <option name="width" value="960" />
+    <option name="height" value="1138" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,7 +298,7 @@
             <path>
               <item name="snake" type="b2602c69:ProjectViewProjectNode" />
               <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="saved" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,15 +312,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentin\Desktop\snake\saved_neural_nets" />
+      <recent name="D:\Users\Valentin\Desktop\snake\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Valentin\Desktop\snake" />
       <recent name="D:\Users\Valentin\Desktop\snake2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Valentin\Desktop\snake\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,11 +381,11 @@
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1930" height="1148" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17079741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19127156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -361,7 +395,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3170478" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26091477" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -382,66 +416,70 @@
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/builtins.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/pygame/draw.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1170570485/pygame/gfxdraw.py" />
-    <entry file="file://$PROJECT_DIR$/genetic_algorithm.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
+    <entry file="file://$PROJECT_DIR$/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constantes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="816">
+          <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        <state relative-caret-position="144">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <marker date="1540453883106" expanded="true" signature="995:1004" ph="..." />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4920">
+          <caret line="207" column="21" selection-start-line="207" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#547#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genetic_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding>
+            <marker date="1540956231644" expanded="true" signature="2497:2501" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+        <state relative-caret-position="-816">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="e#47#65#0" expanded="true" />
+            <element signature="e#295#312#0" expanded="true" />
           </folding>
         </state>
       </provider>

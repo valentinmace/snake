@@ -1,56 +1,75 @@
-"""Main file"""
+# Valentin Macé
+# valentin.mace@kedgebs.com
+# Developed for fun
+# Feel free to use this code as you wish as long as you quote me as author
 
-# import math
-# import random
-import numpy as np
-#import pygame
-# from pygame.locals import *
-# from constantes import *
-# from block import *
-# from network import *
-from genetic_algorithm import *
-import cProfile
-from snake import *
+"""
+main.py
+~~~~~~~~~~
+
+Main file for this project
+
+Here I provide some examples for you to run easily,
+you just need ton uncomment the part you want and comment what you don't want,
+each part is independent of others
+"""
+
 from game import*
-import time
+from genetic_algorithm import *
 
-# map = Map()
-# map.generate()
-# print(map.structure)
-# print(np.where(map.structure==FOOD))
 
+"""
+Watch games of snake played by my best neural nets !
+
+Only 3 games are played here but you can load more networks from the saved folder if you wish
+"""
+net = NeuralNetwork()
+game = Game()
+
+# Joseph is the funniest to watch, he always does something cool
+net.load(filename_weights='saved/joseph_weights.npy', filename_biases='saved/joseph_biases.npy')
+game.start(display=True, neural_net=net)
+
+# Valentin is safe and precise
+net.load(filename_weights='saved/valentin_weights.npy', filename_biases='saved/valentin_biases.npy')
+game.start(display=True, neural_net=net)
+
+# Larry is very very safe but also my best network, don't hesitate to run him a few times if he's doing loops
+net.load(filename_weights='saved/larry_weights.npy', filename_biases='saved/larry_biases.npy')
+game.start(display=True, neural_net=net)
+
+
+"""
+Play a game of snake !
+
+I do not recommend it as it is in first person and not that fun
+But if you want, you can
+"""
 # game = Game()
-# game.start_visible(playable=True)
-# cProfile.run('game.start_invisible()')
+# game.start(playable=True, display=True, speed=10)
 
-# net = Network(shape=[14,16,3])
-# t1 = time.time()
-# game = Game()
-# for i in range(5000):
-#     game.start_invisible(neural_net=net)
-# t2 = time.time()
-# print("temps", t2 - t1)
 
-# net = Network(shape=[14,16,3])
-# game = Game()
-# game.start_visible(neural_net=net)
+"""
+Train your own snakes !
 
-# gen = Genetic(networks_number=4000, crossover_method='neuron', mutation_method='weight')
+Starts the genetic algorithm with parameters that I've already tested
+Best snake of each generation is saved in current folder
+The training speed depend a lot on your CPU and its cores number
+
+Contact me if you know how to make it run on GPU
+"""
+# gen = GeneticAlgorithm(population_size=1000, crossover_method='neuron', mutation_method='weight')
 # gen.start()
 
-net = Network()
-net.load(filename_weights='saved_weights_15478376.npy', filename_biases='saved_biases_15478376.npy')
-game = Game()
-print(game.start(display=True, neural_net=net))
-# print(game.start(display=True, neural_net=net))
-# print(game.start(display=True, neural_net=net))
-# print(game.start(display=True, neural_net=net))
-# print(game.start(display=True, neural_net=net))
-# print(game.start(display=True, neural_net=net))
 
 
 
-# Modifier la manière du snake avec à sa gauche droite etc, changer la notion de distance (pour les diagonales), la
-# queue en mur et enfin (plus tard) la food tu la scannes avec deux inputs (x-xpomme et y-ypomme)
-# Pour qu'il soit moins effrayé des murs peut être 1/distance^2
 
+
+
+
+
+
+
+# Hey pssst, you, yes you.. Sometimes I boost training by making the snake already huge at the begining
+# Also don't hesitate to put a iteration limit in the game loop (see game.py)
