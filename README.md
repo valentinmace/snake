@@ -50,7 +50,7 @@ Do not hesitate to contact me if you need some help
 
 Everything is made by me, I did not want to use existing framework for the genetic algorithm or neural network for learning purposes. I also coded the game with performance in mind rather than conception elegance.
 
-I have published (or will publish depending on when you read this) a serie of youtube tutorial videos on [my channel](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) (in french):
+I have published (or will publish depending on when you read this) a serie of youtube tutorial videos on [my channel](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) (in french)
 
 
 ## Meta
