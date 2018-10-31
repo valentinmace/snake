@@ -13,6 +13,9 @@ This repository contains:
 - A Neural Network module
 - A main file with toy examples
 
+I timed most functions to be sure to improve speed and used numba jit for compiling some functions, the genetic algorithm is parallelized for its main part (snakes evaluation) using multiprocessing and joblib
+
+
 ## Installation
 
 Python 3 was used for this project and I can't promess that older versions are compatibles
@@ -35,8 +38,6 @@ git clone https://github.com/valentinmace/snake.git
 Do not hesitate to contact me if you need some help
 
 Everything is made by me, I did not want to use existing framework for the genetic algorithm or neural network for learning purposes. I also coded the game with performance in mind rather than conception elegance.
-
-I timed most functions to be sure to improve speed and used numba jit for compiling some functions, the genetic algorithm is parallelized for its main part (snakes evaluation) using multiprocessing and joblib
 
 I have published (or will publish depending on when you read this) a serie of youtube tutorial videos on my channel (in french):
 
