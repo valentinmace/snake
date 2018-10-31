@@ -40,7 +40,7 @@ I timed most functions to be sure to improve speed and used numba jit for compil
 
 I have published (or will publish depending on when you read this) a serie of youtube tutorial videos on my channel (in french):
 
-``https://www.youtube.com/channel/UCMIW0JKxoxBDM5yiiF17SrA``
+https://www.youtube.com/channel/UCMIW0JKxoxBDM5yiiF17SrA
 
 ## Meta
 
