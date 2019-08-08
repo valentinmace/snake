@@ -55,6 +55,6 @@ I have published (or will publish depending on when you read this) a serie of yo
 
 ## Meta
 
-Valentin Macé – [LinkedIn](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) – [YouTube](https://www.youtube.com/channel/UCMIW0JKxoxBDM5yiiF17SrA) – valentin.mace@kedgebs.com
+Valentin Macé – [LinkedIn](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) – [YouTube](https://www.youtube.com/channel/UCMIW0JKxoxBDM5yiiF17SrA) – [Twitter](https://twitter.com/ValentinMace) - valentin.mace@kedgebs.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
