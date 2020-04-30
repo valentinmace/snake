@@ -5,7 +5,7 @@
   <img src="./animation.gif">
 </p>
 
-A personal project consisting in training neural networks to play the game "Snake"
+A personal project made by Robin Mancini and myself, consisting in training neural networks to play the game "Snake"
 
 This repository contains:
 - The Snake Game itself
